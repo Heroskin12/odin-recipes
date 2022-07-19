@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+.container {
+    max-width: 1180px;
+}
+
+.center {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.py-2 {
+    padding: 20px;
+}
+
+#nav {
+    width: 100%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: green;
+    color: #fff;
+}
+
+#nav ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    list-style: none;
+    font-weight: bold;
+}
+
+#nav ul li a:hover {
+    text-decoration: underline;
+}
+
+#nav ul li:nth-child(odd) {
+    background: #333;
+}
+
+#nav ul li:nth-child(odd) a {
+    color: #fff;
+}
+
+#nav ul li:nth-child(even) {
+    background: rgb(179, 173, 173);
+    
+}
+
+#nav ul li:nth-child(even) a {
+    color: #fff;
+}
